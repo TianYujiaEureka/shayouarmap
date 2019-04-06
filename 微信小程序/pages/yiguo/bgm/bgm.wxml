@@ -1,0 +1,17 @@
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view>此处应有一些讲解文字，当讲解文字足够多时就会将录音播放相关按钮向下推</view>
+<view><image id="bgmbuding" src="../../../images/shouhui.jpg"/></view>
+<view class="zn-uploadimg">
+
+	<button type="primary" bindtap="listenerButtonPlay">播放</button>
+
+	<button type="primary" bindtap="listenerButtonPause">暂停</button>
+
+	<button type="primary" bindtap="listenerButtonStop">停止播放</button>
+
+</view>

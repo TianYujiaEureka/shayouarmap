@@ -1,0 +1,30 @@
+<view class="detail-box">
+
+    <view class="detail-list">
+        <scroll-view scroll-y="true" style="height: 100%;">
+            <view><image src="{{detailgood.pic_url}}"></image></view>
+            <view class="detail-name">
+                <ul>
+                    <li>简单介绍 {{detailgood.type}}</li>
+                    <li><button class="bgm" bindtap="tobgm">北邮沙河ar</button></li>
+                </ul>
+            </view>
+            <view class='hot-container'>
+
+
+            <view class="hot-title">景观推荐</view>
+                    <view class='hot-gooditem'>
+                        <view class='hot-imgview' wx:key="index"  wx:for="{{hotgoods}}" wx:for-index="idx" wx:for-item="hot">
+                        <image class='hot-product' src='{{hot.more_pic}}'/>
+                        </view>
+                    </view>
+</view>
+            </scroll-view>
+    </view>
+ <view class="detail-footer">
+    <view class="detail-1"></view>
+    <view class="detail-2"></view>
+    <view class="detail-3"></view>
+    <view class="detail-4"></view>
+ </view>
+</view>
