@@ -1,0 +1,37 @@
+
+{
+  "pages":[
+    "pages/yiguo/index/index",
+    "pages/yiguo/list/list",
+    "pages/yiguo/detail/detail",
+    "pages/yiguo/bgm/bgm"
+  ],
+  
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "green",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/yiguo/index/index",
+        "iconPath": "images/icons/btn-tabs_01.png",
+        "selectedIconPath": "images/icons/btn-tabs_07.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/yiguo/list/list",
+        "iconPath": "images/icons/btn-tabs_03.png",
+        "selectedIconPath": "images/icons/btn-tabs_08.png",
+        "text": "分类"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "AR北邮",
+    "navigationBarTextStyle": "white"
+  },
+  "debug": true
+}

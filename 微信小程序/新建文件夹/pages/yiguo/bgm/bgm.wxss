@@ -1,0 +1,30 @@
+
+.zn-uploadimg{
+    position: bottom;
+    flex:2;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    font-size:20px; 
+}
+
+.zn-uploadimg button{
+
+    flex:2;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    font-size:20px; 
+}
+
+.bgmbuild{
+   height: 100px;
+   width:375px;
+   position:center;
+    box-sizing: border-box;
+    display: flex;
+}
